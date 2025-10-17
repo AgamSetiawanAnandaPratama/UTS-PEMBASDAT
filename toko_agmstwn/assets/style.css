@@ -1,0 +1,351 @@
+/* ===== Halaman Index User ===== */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8faff;
+}
+.sidebar {
+    background-color: #0d6efd;
+    color: white;
+    min-height: 100vh;
+    padding-top: 5px;
+    position: fixed;
+    width: 230px;
+}
+.sidebar h2 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.sidebar a {
+    display: block;
+    color: #ffffff;
+    padding: 12px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.content {
+    margin-left: 230px;
+    padding: 2rem;
+}
+.produk-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+.produk-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+.produk-card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+}
+.produk-card .card-body h5 {
+    color: #0d6efd;
+    font-weight: 600;
+}
+.navbar {
+    margin-left: 230px;
+}
+@media (max-width: 991px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        min-height: 100px;
+    }
+    .content {
+        margin-left: 0;
+    }
+    .navbar {
+        margin-left: 0;
+    }
+}
+
+/* ===== Halaman Auth (Login & Register) ===== */
+.auth-card {
+    background: #fff;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    width: 100%;
+    max-width: 420px;
+}
+
+.auth-card h4 {
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+.auth-card .btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+
+.auth-card .btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+body {
+    background: linear-gradient(135deg, #e8f0ff, #ffffff);
+    font-family: 'Poppins', sans-serif;
+}
+.login-card {
+    max-width: 400px;
+    width: 100%;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    padding: 30px;
+}
+.login-title {
+    color: #0d6efd;
+    font-weight: 600;
+}
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+.link-register a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 500;
+}
+.link-register a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Halaman Keranjang ===== */
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.table thead th {
+    background-color: #e7f0ff;
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    color: #000;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5c636a;
+}
+
+/* ===== Halaman Checkout ===== */
+.card {
+    border: none;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.table thead th {
+    background-color: #e8f1ff;
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+.table tfoot th {
+    background-color: #f8fbff;
+    color: #198754;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5c636a;
+}
+
+.loader {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(255, 255, 255, 0.7) url('../assets/img/loader.gif') center center no-repeat;
+    z-index: 9999;
+}
+
+/* ===== Halaman Bayar ===== */
+.card {
+    border: none;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.alert-info {
+    background-color: #e8f3ff;
+    border: 1px solid #bcd0f7;
+    color: #0d6efd;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5c636a;
+}
+
+form label {
+    color: #333;
+}
+
+input[type="file"] {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* ===== Riwayat Pesanan ===== */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #e3f0ff;
+    color: #0d6efd;
+    border-bottom: 2px solid #cfe2ff;
+}
+
+.badge {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    border-radius: 8px;
+}
+
+.card {
+    border-radius: 12px;
+    border: none;
+}
+
+.btn {
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+/* ===== Detail Produk ===== */
+.card img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+}
+
+.btn {
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+/* Navbar Admin full dan nempel atas */
+.navbar.bg-primary {
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    z-index: 1030;
+  }
+  
+  /* Pastikan tidak ada jarak putih di atas */
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  /* Tombol logout hover */
+  .navbar .btn:hover {
+    background-color: #ffebeb;
+  }
+  
+  body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .card {
+    border-radius: 12px;
+  }
+  
+  .table th {
+    vertical-align: middle;
+  }
+  
+  .navbar.bg-primary {
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+    z-index: 1030;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  .table img {
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .navbar-brand img {
+    height: 65px; /* Atur sesuai kebutuhan */
+    object-fit: contain;
+}
